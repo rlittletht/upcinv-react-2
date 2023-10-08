@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "upcinv2.react", "upcinv2.react.esproj", "{0DD8AA33-904E-46E9-947F-61F08831C2F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DD8AA33-904E-46E9-947F-61F08831C2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD8AA33-904E-46E9-947F-61F08831C2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD8AA33-904E-46E9-947F-61F08831C2F9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0DD8AA33-904E-46E9-947F-61F08831C2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD8AA33-904E-46E9-947F-61F08831C2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD8AA33-904E-46E9-947F-61F08831C2F9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36623503-8A2A-4F48-B04E-811A5BB8A54E}
+	EndGlobalSection
+EndGlobal
