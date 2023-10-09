@@ -20,6 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "publish": "az-publish %npm_config_subscription% Upc WestUs upcweb",
+    "provision": "az-provision %npm_config_subscription% Upc WestUs upcweb",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
