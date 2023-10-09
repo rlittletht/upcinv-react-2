@@ -1,10 +1,12 @@
-import React from 'react';
-import './App.css';
+// declare var require: any
 
-function App() {
-  return (
-    <div>Hello World!</div>
-  );
+import { UpcMain } from "./components/UpcMain";
+
+function App()
+{
+    return (
+        <UpcMain/>
+    );
 }
 
 export default App;
