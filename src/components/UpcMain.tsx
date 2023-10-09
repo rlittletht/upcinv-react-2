@@ -119,6 +119,9 @@ export class UpcMain extends React.Component<UpcMainProps, UpcMainState>
     
     render()
     {
+        const coverSrc = this.IsValidItem(this.state.Item) ? `https://data.upcinv.thetasoft.com/${this.state.Item.CoverSrc}` : "";
+        const imgSrc = coverSrc.toLowerCase().replace(".wmf", ".jpg");
+
         return (
             <div>
                 <UpcMainHeader />
@@ -196,7 +199,7 @@ export class UpcMain extends React.Component<UpcMainProps, UpcMainState>
                         Cover
                         <br />
                         <Image
-                            src={this.IsValidItem(this.state.Item) ? this.state.Item.CoverSrc : null}
+                            src={imgSrc}
                         />
                     </Label>
                 </Panel>
